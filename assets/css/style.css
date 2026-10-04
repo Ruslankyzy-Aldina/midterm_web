@@ -1,0 +1,78 @@
+:root {
+  --bs-dark-rgb: 39, 43, 67;
+  --bs-border-radius: 1rem;
+}
+
+body {
+  background: #e7f4fc;
+  color: #365469;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+  color: #23475e;
+}
+
+h1 {
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+}
+
+.navbar-brand {
+  letter-spacing: 0.06em;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.btn-primary {
+  --bs-btn-color: #163e55;
+  --bs-btn-hover-color: #163e55;
+  --bs-btn-active-color: #163e55;
+  --bs-btn-bg: #83cef2;
+  --bs-btn-border-color: #83cef2;
+  --bs-btn-hover-bg: #65bee9;
+  --bs-btn-hover-border-color: #65bee9;
+  --bs-btn-active-bg: #4baddc;
+  --bs-btn-active-border-color: #4baddc;
+  --bs-btn-focus-shadow-rgb: 64, 151, 195;
+}
+
+.btn {
+  border-radius: 2rem;
+}
+
+.intro-panel {
+  background: #d5edfb;
+  border-radius: 1rem;
+}
+
+.card {
+  background-color: #f2f9fe;
+  border: 1px solid #c5e1f1;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 6px 20px #23475e0a;
+}
+
+.card-img-top {
+  height: 230px;
+  object-fit: cover;
+  object-position: center 25%;
+}
+
+.carousel-item img {
+  height: clamp(260px, 50vw, 420px);
+  object-fit: contain;
+  background-color: #d5edfb;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #23475e;
+  height: 5px;
+}
